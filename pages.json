@@ -2,8 +2,9 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "饿了么",
-			"backgroundColor": "#00aaff"
+			"navigationBarTitleText": "",
+			// "backgroundColor": "#00aaff"
+			"navigationStyle": "custom"
 		}
 	},{
 		"path": "pages/index/fuli",

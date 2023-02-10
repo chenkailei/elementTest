@@ -15,6 +15,7 @@
 
 <style lang="scss">
 	@import url("@/static/icon/iconfont.css");
+	@import url("static/common.less");
 	@import url("@/static/iconfont.css");
 	/*每个页面公共css */
 	@import '@/uni_modules/uni-scss/index.scss';
@@ -30,5 +31,9 @@
 		font-size: 14px;
 		color: #333;
 		padding: 10px;
+	}
+	body{
+		height: 100%;
+		background: #00aaff;
 	}
 </style>
