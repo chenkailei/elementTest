@@ -1,0 +1,108 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "饿了么",
+			"backgroundColor": "#00aaff"
+		}
+	},{
+		"path": "pages/index/fuli",
+		"style": {
+			"navigationBarTitleText": "饿了么",
+			"backgroundColor": "#00aaff"
+		}
+	},{
+		"path": "pages/index/list",
+		"style": {
+			"navigationBarTitleText": "饿了么",
+			"backgroundColor": "#00aaff"
+		}
+	},{
+		"path": "pages/index/user",
+		"style": {
+			"navigationBarTitleText": "饿了么",
+			"backgroundColor": "#00aaff"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "饿了么",
+		"navigationBarBackgroundColor": "#00aaff",
+		"backgroundColor": "#00aaff",
+		"enablePullDownRefresh": true,
+		
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"iconfontSrc": "./static/icon/iconfont.ttf",
+		"backgroundColor": "#fff",
+		"color": "#ccc",
+		"selectedColor": "#00aaff",
+		
+		"list": [
+			{
+				"text": "首页", 
+				"pagePath": "pages/index/index",
+				//#ifndef MP
+				"iconfont": {
+					"text": "\ue722",
+					"color": "#ccc",
+					"selectedText": "\ue722",
+					"selectedColor": "#00aaff",
+					"fontSize": "14px"
+				},
+				//#endif
+				"iconPath": "./static/images/elementicon.png",
+				"selectedIconPath": "static/images/elementiconActive.png"
+				
+			},
+			{
+				"text": "天天领福利",
+				"pagePath": "pages/index/fuli",
+				//#ifndef MP
+				"iconfont": {
+					"text": "\ue656",
+					"color": "#ccc",
+					"selectedText": "\ue656",
+					"selectedColor": "#00aaff",
+					"fontSize": "14px"
+				},
+				//#endif
+				"iconPath": "./static/images/fuli.png",
+				"selectedIconPath": "static/images/fuliActive.png"
+			},
+			{
+				"text": "订单",
+				"pagePath": "pages/index/list",
+				//#ifndef MP
+				"iconfont": {
+					"text": "\ue737",
+					"color": "#ccc",
+					"selectedText": "\ue737",
+					"selectedColor": "#00aaff",
+					"fontSize": "14px"
+				},
+				//#endif
+				"iconPath": "./static/images/list.png",
+				"selectedIconPath": "static/images/listActive.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/index/user",
+				//#ifndef MP
+				"iconfont": {
+					"text": "\ue600",
+					"color": "#ccc",
+					"selectedText": "\ue600",
+					"selectedColor": "#00aaff",
+					"fontSize": "14px"
+				},
+				//#endif
+				"iconPath": "./static/images/user.png",
+				"selectedIconPath": "static/images/userActive.png"
+			}
+		]
+	}
+}
