@@ -15,7 +15,7 @@
 
 <style lang="scss">
 	@import url("@/static/icon/iconfont.css");
-	@import url("static/common.less");
+	@import url("static/common.scss");
 	@import url("@/static/iconfont.css");
 	/*每个页面公共css */
 	@import '@/uni_modules/uni-scss/index.scss';

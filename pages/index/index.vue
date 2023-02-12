@@ -7,15 +7,23 @@
 		<view class=" container h100">
 			<uni-row>
 				<uni-col :span="12">
-					<view>
+					<view class="ellipsis ft12">
 						<uni-icons class="iconfont icon-weizhi"></uni-icons>
-						<text class="uni-ellipsis-1">北京市西城区德胜街道普天德胜大厦</text>
+						<text>北京市西城区德胜街道普天德胜大厦</text>
 					</view>
 				</uni-col>
 				<uni-col :span="12">
-					<view class="">2</view>
+					<view class="ft8 fr lh17">
+						<text>美食果蔬医药·30分钟送达</text>
+					</view>
 				</uni-col>
 			</uni-row>
+			
+			<view class="search-bar mt10 pr">
+				<input type="text" value="" class="searchInput ft12" placeholder="满记甜品"></input>
+				<uni-icons class="iconfont icon-search ps ft12"></uni-icons>
+				<button class="ps searchBtn ft12">搜索</button>
+			</view>
 		</view>
 	</view>
 </template>
@@ -51,6 +59,23 @@
 			background-color: #eef;
 			border-top-left-radius: 15px;
 			border-top-right-radius: 15px;
+			padding: 5px;
+		}
+		.icon-search{
+			left: 4px;
+			top: 4px;
+			
+		}
+		.searchBtn{
+			width: 15%;
+			padding: 0 5px;
+			right: 0px;
+			top: 0px;
+			height: 24px;
+			line-height: 24px;
+			background-color: #00aaff;
+			color: #fff;
+			border-radius: 15px;
 		}
 	}
 </style>
